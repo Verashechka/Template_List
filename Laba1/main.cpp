@@ -50,7 +50,7 @@ int main()
 			case 6:
 				cout << "Enter index: ";
 				cin >> index;
-				cout << "\n" << a.at(index);
+				cout << "\n" << a.at(index)<<endl;
 				break;
 			case 7:
 				cout << a;
@@ -60,7 +60,8 @@ int main()
 				cout << "An element has been removed\n";
 				break;
 			case 8:
-				cout << "Size of list is " << a.get_size();
+				cout << a;
+				cout << "Size of list is " << a.get_size()<<endl;
 				break;
 			case 9:
 				a.clear();

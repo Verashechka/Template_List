@@ -3,7 +3,8 @@
 #include <exception>
 using namespace std;
 class Wrong_index_of_element: public exception
-{public:
+{
+public:
 	Wrong_index_of_element() : exception("The index is wrong!\n")
 	{
 	}
